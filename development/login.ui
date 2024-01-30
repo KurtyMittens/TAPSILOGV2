@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login_page</class>
+ <widget class="QWidget" name="login_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="entry_holder">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>80</y>
+      <width>331</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid rgb(234, 196, 163);
+border-radius: 50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title_card">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>341</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 196, 163);
+border-image: url(:/newPrefix/assets/Add_a_subheading-removebg-preview-removebg-preview.png);
+border: 2px;
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>311</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/assets/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tapsilog_meaning">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>321</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 6pt &quot;Rockwell&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Total Activity Processed through a Strictly Implemented Log System </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>90</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Arial Black&quot;;</string>
+    </property>
+    <property name="text">
+     <string>SECURITY LOGIN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="username_entry">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>200</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px;
+border-bottom: 2px solid black;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Username</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password_entry">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>260</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px;
+border-bottom: 2px solid black;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="log_in_button">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>320</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#log_in_button{
+	border: 3px solid black;
+	border-radius: 10px;
+	font: 87 10pt &quot;Arial Black&quot;;
+}
+
+QPushButton#log_in_button:hover{
+	background-color: rgb(234, 196, 163)
+}</string>
+    </property>
+    <property name="text">
+     <string>LOGIN</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_button">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>0</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#exit_button{
+	font: 8pt &quot;Wide Latin&quot;;
+	color: rgb(0, 0, 0);
+	background-color:rgb(255, 255, 255);
+}
+
+QPushButton#exit_button:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 0, 0)
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>370</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Forgot password?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="forgot_button">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>370</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#forgot_button{
+	font: 8pt &quot;Segoe UI Variable Small&quot;;
+	border: 2px;
+	color: rgb(234, 196, 163);
+}
+
+QPushButton#forgot_button:hover{
+	font: 8pt &quot;Segoe UI Variable Small&quot;;
+	text-decoration: underline;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Click here</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="see_pass">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>260</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#see_pass{
+	border: 2px;
+	image: url(:/newPrefix/assets/unsee.png);
+}
+
+QPushButton#see_pass:pressed{
+	border: 2px;
+	image: url(:/newPrefix/assets/see.png);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../PasswordManagerEVO/Assets/unsee.png</normaloff>../PasswordManagerEVO/Assets/unsee.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bdsm_logo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>121</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/assets/logo_main.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="assets.qrc"/>
+ </resources>
+ <connections/>
+</ui>
